@@ -1,0 +1,147 @@
+
+.refno{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    
+}
+
+.dropdown-btn {
+    width: 100%;
+}
+
+.vst-logo{
+    width:100%;
+    max-width:460px;
+}
+
+.logo_ref{
+    width: fit-content;
+}
+
+.card {
+    padding: 0px;
+}
+
+.proj_list_dropdown {
+    display: none;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.select2-container--default .select2-selection--single {
+    height: 38px !important; /* Adjust the height as needed */
+  }
+/* Adjust the line-height to vertically center the text */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 38px !important; /* Match the height of the button */
+  }
+
+
+.add-field, .remove-field {
+    height: 40px; /* Set your desired height here */
+    line-height: 1.5; /* Optionally adjust line height for vertical centering */
+    margin-top: 31px;
+}
+
+.add-field1, .remove-field1 {
+    height: 40px; /* Set your desired height here */
+    line-height: 1.5; /* Optionally adjust line height for vertical centering */
+    margin-top: 31px;
+}
+
+.input-note{
+    margin-top: 12px;
+    color: rgb(255, 69, 2);
+}
+
+.card-body-custom {
+    display: inline-block;
+    width: 25%;
+}
+
+.card-body-custom2 {
+    border: solid rgb(234, 233, 233) 1px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width: auto;
+}
+
+.card-body-radio {
+    display: flex;
+}
+
+.form-group-radiobtn {
+    margin-left: 10%;
+}
+
+.textradiobtn {
+    padding: 1%;
+    text-align: center;
+}
+
+.text-style {
+    font-size: 15px;
+}
+
+
+.highlight {
+    border: 1px solid rgb(244, 77, 77);
+    box-shadow: 0 0 2px rgb(180, 0, 0);
+    padding: 8px; /* Adjust padding as needed */
+}
+/* Custom CSS for DataTables buttons to mimic Bootstrap's btn-success and btn-primary classes */
+.buttons-print,
+.buttons-excel {
+    border: solid 1px #198754 !important; /* Border for btn-success */
+    background-color: #198754 !important; /* Background for btn-success */
+    color: white !important; /* Text color for btn-success */
+    border-radius: 2px !important; /* Border radius for btn-success */
+    font-size: 1rem !important; /* Font size for buttons */
+    display: inline-block !important;
+    height: auto !important;
+    padding: .375rem .75rem !important; /* Padding for buttons */
+    font-family: inherit !important; /* Use inherited font family */
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !important; /* Add transitions */
+    margin-right: 5px;
+}
+
+.buttons-print:hover,
+.buttons-excel:hover {
+    background-color: #157347 !important; /* Darker shade for hover, similar to btn-success hover */
+    border-color: #146c43 !important; /* Border color on hover to match btn-success */
+}
+
+.buttons-print:focus,
+.buttons-excel:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5) !important; /* Focus shadow similar to btn-success */
+}
+
+#printButtonContainer {
+    margin-right: 6px; /* Push the print button to the far right */
+}
+
+.no-line-height {
+    line-height: 1.5em !important;
+    background-image: none !important;
+}
+
+/* Remove the spinners in all browsers */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.custom-header-bg{
+    background-color:#2D718C;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+  }
+
